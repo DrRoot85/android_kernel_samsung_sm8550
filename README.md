@@ -4,9 +4,9 @@
 - 适配KernelSU但不包括Apatch
 
 ### 🔖 Important Notice
-使用TWRP或者kernel flasher刷入
-GKI模式开机即可集成KSU激活root权限
-若使用LKM模式则需自行修补init_boot
+- 使用TWRP或者kernel flasher刷入
+- GKI模式开机即可集成KSU激活root权限
+- 若使用LKM模式则需自行修补init_boot
 
 # How do I submit patches to Android Common Kernels
 

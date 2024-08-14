@@ -1,3 +1,4 @@
+### :zap: Features
 - 基于三星官方源码编译（不会缺失特定驱动）
 - 定期合并AOSP的改动与其他优化
 - 适配KernelSU但不包括Apatch

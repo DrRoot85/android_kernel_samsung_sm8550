@@ -2,7 +2,6 @@ name: Release Tool
 
 on:
   workflow_dispatch:
-  push:
 
 jobs:
   download-release:

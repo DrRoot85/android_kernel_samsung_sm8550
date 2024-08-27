@@ -4,6 +4,7 @@
 - 基于三星官方源码编译（不会缺失特定驱动）
 - 定期合并AOSP的改动与其他优化
 - 稳定的亮屏快充与更好的性能释放
+- 集成Re:Kernel以提供更好的墓碑体验
 - 适配KernelSU但不包括Apatch
 
 ### 🔖 Important Notice

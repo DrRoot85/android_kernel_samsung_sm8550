@@ -53,5 +53,9 @@ jobs:
           name: "OneDesign"
           tag: "CI_${{ env.TAG }}"
           body: |
-            Note: use QyzDesign with [LSPosed](https://github.com/LSPosed/LSPosed/releases)
-            
+            ### Note:
+            use OneDesign with [LSPosed](https://github.com/LSPosed/LSPosed/releases)
+
+            ### CHANGELOG
+
+            ### 更新日志

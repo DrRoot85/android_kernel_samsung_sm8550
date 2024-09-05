@@ -13,7 +13,7 @@ jobs:
       - name: Download release info
         run: |
           curl -H "Authorization: token ${{ secrets.TOKEN }}" \
-               https://api.github.com/repos/qlenlen/QyzDesign/releases/latest \
+               https://api.github.com/repos/qlenlen/OneDesign/releases/latest \
                -o release_info.json
           cat release_info.json
           mkdir assets
@@ -29,7 +29,7 @@ jobs:
 
             curl -L -H "Authorization: token ${{ secrets.TOKEN }}" \
               -H "Accept: application/octet-stream" \
-              "https://api.github.com/repos/qlenlen/QyzDesign/releases/assets/$ASSET_ID" \
+              "https://api.github.com/repos/qlenlen/OneDesign/releases/assets/$ASSET_ID" \
               -o $ASSET_NAME
           done <<<"$ASSET_INFO"
           mv *.apk assets

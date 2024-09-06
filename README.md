@@ -8,8 +8,7 @@
 - 适配KernelSU但不包括Apatch
 
 ### 🔖 Important Notice
-- 使用TWRP或者kernel flasher刷入
-> 刷写工具可使用 [kf](https://github.com/qlenlen/KernelFlasher/releases)
+- 使用TWRP或者[kernel flasher](https://github.com/qlenlen/KernelFlasher/releases)刷入
 - GKI模式开机即可集成KSU激活root权限
 - 若使用LKM模式则需自行修补init_boot
 - 若对解除温控无需求请使用`*-STOCK.zip´

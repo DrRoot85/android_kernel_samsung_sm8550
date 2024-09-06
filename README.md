@@ -3,13 +3,13 @@
 ### :zap: Features
 - 基于三星官方源码编译（不会缺失特定驱动）
 - 定期合并AOSP的改动与其他优化
-- 稳定的亮屏快充与更好的性能释放
-> hook_temp集成版无法修改charger读取的温度，暂时只有dlkm达到预期，但刷写dlkm较为复杂，难以通用化
+- 稳定亮屏快充（需要dlkm）更好的性能释放
 - 集成Re:Kernel以提供更好的墓碑体验
 - 适配KernelSU但不包括Apatch
 
 ### 🔖 Important Notice
 - 使用TWRP或者kernel flasher刷入
+> 刷写工具可使用 [kf](https://github.com/qlenlen/KernelFlasher/releases)
 - GKI模式开机即可集成KSU激活root权限
 - 若使用LKM模式则需自行修补init_boot
 - 若对解除温控无需求请使用`*-STOCK.zip´

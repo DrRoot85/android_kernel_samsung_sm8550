@@ -54,7 +54,7 @@ jobs:
           tag: "CI_${{ env.TAG }}"
           body: |
             ### Note: 
-            Flash the kernel zip with kernel flasher or TWRP
+            Flash the kernel zip with [kernel flasher](https://github.com/qlenlen/KernelFlasher/releases) or TWRP
             When using KSU-GKI mode, there is no need to patch anything
             But if you prefer LKM more, do not forget to patch your init_boot
 

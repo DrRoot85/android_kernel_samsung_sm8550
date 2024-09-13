@@ -5,13 +5,12 @@
 - 定期合并AOSP的改动与其他优化
 - 稳定亮屏快充（需要dlkm）更好的性能释放
 - 集成Re:Kernel以提供更好的墓碑体验
-- 适配KernelSU但不包括Apatch
 
 ### 🔖 Important Notice
 - 使用TWRP或者 [kernel flasher](https://github.com/qlenlen/KernelFlasher/releases) 刷入
 - GKI模式开机即可集成KSU激活root权限
 - 若使用LKM模式则需自行修补init_boot
-- 若对解除温控无需求请使用`*-STOCK.zip´
+- 适配KernelSU但不包括Apatch
 
 # How do I submit patches to Android Common Kernels
 

@@ -1,3 +1,7 @@
+感谢议题提醒，由于GPL协议，未提供完整源码的内核不允许进行二进制分发，本仓库即日起停止所有内核发行版。
+
+Thanks for the reminder, due to the GPL license, the kernel that does not provide the full source code is not allowed to be distributed in binary, and this repository will stop all kernel distributions from now on.
+
 [![GitHub release](https://img.shields.io/github/release/qlenlen/android_kernel_samsung_sm8550)](https://GitHub.com/qlenlen/android_kernel_samsung_sm8550/releases/) 
 [![Github all releases](https://img.shields.io/github/downloads/qlenlen/android_kernel_samsung_sm8550/total)](https://GitHub.com/qlenlen/android_kernel_samsung_sm8550/releases/)
 ### :zap: Features

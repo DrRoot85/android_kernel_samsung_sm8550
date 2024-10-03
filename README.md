@@ -19,7 +19,7 @@
 - 便捷功能（SELinux状态管理、解除刷新率限制、快捷开启开发者与ADB、GC回收等）
 - 实用工具（去除AVB校验、分区备份、采样率测试等）
 
-### Kernel Source Guideline
+### 📰 Kernel Source Guideline
 1. Download stock source code from [Samsung Opensource](https://opensource.samsung.com/uploadSearch?searchValue=S918B)
 2. Clone AOSP from [repo](https://github.com/aosp-mirror/kernel_common/tree/android13-5.15-lts)
 3. Merge anything you like into the stock one

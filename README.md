@@ -7,6 +7,8 @@
 - 集成Re:Kernel以提供更好的墓碑体验
 - 更快速的lz4与鸿蒙lz4kd提供zram支持
 
+### 暂未适配XK1 最新系统请勿使用本内核
+
 ### 🔖 Important Notice
 - 使用TWRP或者 [kernel flasher](https://github.com/qlenlen/KernelFlasher/releases) 刷入
 - GKI模式开机即可集成KSU激活root权限

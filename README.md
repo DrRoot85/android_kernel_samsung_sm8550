@@ -7,13 +7,11 @@
 - 集成Re:Kernel以提供更好的墓碑体验
 - 更快速的lz4与鸿蒙lz4kd提供zram支持
 
-### 暂未适配XK1 最新系统请勿使用本内核
-
 ### 🔖 Important Notice
 - 使用TWRP或者 [kernel flasher](https://github.com/qlenlen/KernelFlasher/releases) 刷入
 - GKI模式开机即可集成KSU激活root权限
 - 若使用LKM模式则需自行修补init_boot
-- 适配KernelSU但不包括Apatch
+- 适配KernelSU与Apatch(自24.12.07的发行版开始)
 
 ### ⭐ OneDesign
 - 港版本地化支持（来电归属、应用商店换源、天气换源、定位组件激活等）
@@ -26,3 +24,8 @@
 2. Clone AOSP from [repo](https://github.com/aosp-mirror/kernel_common/tree/android13-5.15-lts)
 3. Merge anything you like into the stock one
 4. Compile and you get it
+
+### Credit
+- Source from AOSP
+- Drivers from Samsung
+- Refer to some commits from `samsung-sm8550`

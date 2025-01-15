@@ -53,11 +53,15 @@ jobs:
           name: "kernel_samsung_dm3q"
           tag: "CI_${{ env.TAG }}"
           body: |
+            Commit: ${{ github.sha }}
             ### Note: 
             Flash the kernel zip with [kernel flasher](https://github.com/qlenlen/KernelFlasher/releases) or TWRP
-            When using KSU-GKI mode, there is no need to patch anything
-            But if you prefer LKM mode, do not forget to patch your init_boot
+            - kalama-5.15.lts-KSU.zip: Use with tiann/KernelSU
+            - kalama-5.15.lts-KSU-susfs.zip: Use with tiann/KernelSU and susfs
+            - kalama-5.15.lts-NEXT.zip: Use with rifsxd/KernelSU-Next
+            - kalama-5.15.lts-LKM.zip: Pure LKM kernel
 
+            If you prefer LKM mode, do not forget to patch your init_boot.
             ### CHANGELOG
 
             ### 更新日志
